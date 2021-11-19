@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 10px;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 10px 10px gray;
+}
+
+.caja-izquierda {
+  width: 30%;
+  background-color: rgba(2, 2, 68, 0.836);
+  color: white;
+}
+
+.caja-centro {
+  width: 70%;
+  margin: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.imagen-de-contacto {
+  width: 40px;
+}
+.perfil {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  color: rgba(2, 2, 68, 0.836);
+  font-size: 300%;
+}
+.caja-centro-items h2 {
+  background-color: rgba(2, 2, 68, 0.836);
+  border-radius: 10px;
+  width: 32%;
+  color: white;
+  text-align: center;
+}
+.caja-centro-items {
+  margin: 20px;
+
+  margin-bottom: 60px;
+}
+.caja-centro-items ul p {
+  color: black;
+  font-size: 100%;
+}
+p {
+  color: black;
+  font-size: 160%;
+}
+.caja-centro-items ul {
+  color: black;
+  font-size: 160%;
+}
+.caja-izquierda-items span {
+  font-size: 15px;
+  justify-content: center;
+}
+
+.caja-izquierda-items ul {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.caja-izquierda-items img {
+  margin-top: 10%;
+}
+.icono {
+  color: rgb(238, 245, 245);
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.porcentaje {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(42, 44, 46);
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.porcentaje div {
+  background: white;
+  height: 10px;
+  border-radius: 5px;
+}

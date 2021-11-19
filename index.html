@@ -4,65 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOJA DE VIDA, PRACTICA HTML</title>
+    <title>HOJA DE VIDA, PRACTICA CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <br />
-    <h1>Carlos Andrés Rodríguez Beltrán</h1>
-    <br />
-    <h2>Email: carlosa.rodriguez@vasslatam.com</h2>
-    <h3>Teléfono: 3213176390</h3>
-    <h3>Ciudad: Bogotá</h3>
+    <div class="container">
+      <div class="caja-izquierda">
+        <div class="caja-izquierda-items">
+          <img src="img/ANDRES.jpeg" class="perfil" alt="foto perfil" />
+        </div>
+        <div class="caja-izquierda-items">
+          <h2>Contacto</h2>
 
-    <p>
-      <a href="https://github.com/"> GitHub</a>
-    </p>
+          <span class="icono">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </span>
+          <span> carlosa.rodriguez@vasslatam.com </span>
+          <span class="icono">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </span>
+          <span> +57 3213176390</span>
+          <br />
+          <span class="icono">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </span>
+          <span>Tv 3D Bis # 49c -43 sur</span>
+        </div>
+        <div class="caja-izquierda-items">
+          <h2>HABILIDADES</h2>
+          <ul>
+            <li>
+              <span> Diseño Web </span>
+              <span class="porcentaje">
+                <div style="width: 40%"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="caja-izquierda-items">
+          <h2>SOFTWARES</h2>
+          <ul>
+            <li>
+              <span>C</span>
+              <span class="porcentaje">
+                <div style="width: 40%"></div>
+              </span>
+            </li>
+            <li>
+              <span>C++</span>
+              <span class="porcentaje">
+                <div style="width: 50%"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="caja-izquierda-items">
+          <h2 class="hobbies">HOBBIES</h2>
+          <ul>
+            <span class="icono">
+              <li>
+                <i class="fa fa-music" aria-hidden="true"></i>
+                <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                <i class="fa fa-car" aria-hidden="true"></i>
+                <i class="fa fa-motorcycle" aria-hidden="true"></i></li
+            ></span>
+          </ul>
+        </div>
+      </div>
 
-    <h2>Eperiencia Laboral</h2>
-    <ol>
-      <li>GMA TECHNOLOGY SOLUTIONS</li>
-      <ul>
-        <li>TECNICO DE SOPORTE</li>
-      </ul>
-      <br />
-      <li>UNIALQUILERES DE EQUIPOS</li>
-      <ul>
-        <li>TECNICO DE SOPORTE</li>
-      </ul>
-    </ol>
-    <br />
-    <table border="3px">
-      <th>HABILIDADES TECNICAS</th>
-      <th>TECNOLOGIAS A MEJORAR</th>
-      <tr>
-        <td>SOPORTE Y MANTENIMIENTO</td>
-        <td>JAVASCRIPT,REACT</td>
-      </tr>
-    </table>
-    <br />
-    <br />
-    <br />
-    <table border="epx">
-      <thead>
-        <tr>
-          <th colspan="3">INTERESES</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>SCRUM</td>
-        <td>REALIDAD VIRTUAL</td>
-        <td>EVOLUCIÓN DE LAS INDUSTRIAS</td>
-      </tr>
-    </table>
-    <br />
-
-    <form>
-      <input type="email" name="email" placeholder="email"/>
-      <br />
-      <textarea name="textarea" rows="8" cols="30" placeholder="ESCRIBE EL MENSAJE"></textarea>
-      <br />
-      <button type="button" id=>CONTACTAR</button>
-    </form>
-
+      <div class="caja-centro">
+        <h1>CARLOS ANDRES RODRIGUEZ BELTRAN</h1>
+        <div class="caja-centro-items">
+          <h2>INGENIERO ELECTRONICO</h2>
+          <p>
+            Conocimiento en diseños, planos de equipos electronicos, montajes de
+            circuitos tanto en software como en hartware. Instalacion de redes,
+            progranmación de routers, cableado estructurado.
+          </p>
+        </div>
+        <div class="caja-centro-items">
+          <h2>INFORMACION PERSONAL</h2>
+          <p>
+            Cuento con una excelente formación academica, me defino por ser una
+            persona proactiva con grandes aspiraciones a crecer como persona y
+            en el hambito laboral.
+          </p>
+        </div>
+        <div class="caja-centro-items">
+          <h2>EDUCACION</h2>
+          <ul>
+            <li>2020 INGENIERIA ELECTRONICA</li>
+            <li>2017 TECNOLOGÍA EN ELECTRONICA INDUSTRIAL</li>
+          </ul>
+        </div>
+        <div class="caja-centro-items">
+          <h2>EXPERIENCIA</h2>
+          <ul>
+            <li>04/2019 - 04/2021 GMA TECHNOLOGY SOLUTION</li>
+            <p>
+              Mantenimiento preventivo y correctivo de dispositivos de reacarga
+              automatica en transmilenio.
+            </p>
+            <li>05/2021 - 10/2021 UNIALQUILERES DE EQUIPOS</li>
+            <p>
+              soporte Técnico a equipos de computo en proyecto de secretaria de
+              salud
+            </p>
+            <li>10/2021 - Actualmente VASS CONSULTORIA DE SISTEMAS COLOMBIA</li>
+            <p>Programador</p>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
